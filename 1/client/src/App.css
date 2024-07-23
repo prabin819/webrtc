@@ -1,0 +1,32 @@
+.text-center {
+  text-align: center;
+}
+.homepage-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+.input-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homepage-container .input-container input {
+  font-size: 24px;
+  display: block;
+  padding: 10px 20px;
+  margin: 10px;
+  outline: none;
+}
+.homepage-container .input-container button {
+  font-size: 24px;
+  display: block;
+  padding: 10px 20px;
+  margin: 10px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 25% 10%;
+}
